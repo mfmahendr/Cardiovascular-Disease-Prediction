@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jc7W1ZqJtoBDTI0Z9b7pF8wrg3IjV33dilyNo6Cm6zhHjEFHfF2FOk1/vzQfC03WQftKMAeEZ1ICj7w30VGv8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\CardiovascularAPITest\\CardiovascularAPITest\\CardiovascularAPITest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
