@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\source\\repos\\CardiovascularAPITest\\CardiovascularAPITest\\CardiovascularAPITest.csproj": {}
+    "C:\\Users\\LENOVO\\Source\\Repos\\mfmahendr\\Cardiovascular-Disease-Prediction\\CardiovascularAPITest\\CardiovascularAPITest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\source\\repos\\CardiovascularAPITest\\CardiovascularAPITest\\CardiovascularAPITest.csproj": {
+    "C:\\Users\\LENOVO\\Source\\Repos\\mfmahendr\\Cardiovascular-Disease-Prediction\\CardiovascularAPITest\\CardiovascularAPITest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\CardiovascularAPITest\\CardiovascularAPITest\\CardiovascularAPITest.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Source\\Repos\\mfmahendr\\Cardiovascular-Disease-Prediction\\CardiovascularAPITest\\CardiovascularAPITest.csproj",
         "projectName": "CardiovascularAPITest",
-        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\CardiovascularAPITest\\CardiovascularAPITest\\CardiovascularAPITest.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\mfmahendr\\Cardiovascular-Disease-Prediction\\CardiovascularAPITest\\CardiovascularAPITest.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\CardiovascularAPITest\\CardiovascularAPITest\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Source\\Repos\\mfmahendr\\Cardiovascular-Disease-Prediction\\CardiovascularAPITest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

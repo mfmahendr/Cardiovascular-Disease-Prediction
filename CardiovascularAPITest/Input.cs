@@ -1,4 +1,10 @@
-﻿using System;
+﻿// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
+// Instructions for doing this in Visual Studio:
+// Tools -> Nuget Package Manager -> Package Manager Console
+// Install-Package Newtonsoft.Json
+// .NET Framework 4.7.1 or greater must be used
+using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,21 +14,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
-using System.Collections.Generic;
-// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
-// Instructions for doing this in Visual Studio:
-// Tools -> Nuget Package Manager -> Package Manager Console
-// Install-Package Newtonsoft.Json
-// .NET Framework 4.7.1 or greater must be used
-
-using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
+
 
 
 namespace CardiovascularAPITest
@@ -49,9 +44,9 @@ namespace CardiovascularAPITest
             {
                 
                 
-                const string apiKey = ""; // Replace this with the API key for the web service
+                const string apiKey = "t6HNnhsyQBOY4u8Puk6OBoqeHijcptmb"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-                client.BaseAddress = new Uri("http://2d54029f-e792-43be-b96b-68efadbf489a.southeastasia.azurecontainer.io/score");
+                client.BaseAddress = new Uri("http://19a4b27a-04ce-4987-a763-d068d480f689.southeastasia.azurecontainer.io/score");
 
                 var content = new StringContent(scoreRequestContent);
 
@@ -89,7 +84,6 @@ namespace CardiovascularAPITest
         private void submit_Click(object sender, EventArgs e)
         {
             int id = 100;
-
 
             // Request data goes here
             // The example below assumes JSON formatting which may be updated
