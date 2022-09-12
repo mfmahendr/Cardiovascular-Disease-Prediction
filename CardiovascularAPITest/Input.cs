@@ -65,7 +65,7 @@ namespace CardiovascularAPITest
                 if (response.IsSuccessStatusCode)
                 {
                     string result = await response.Content.ReadAsStringAsync();
-                    MessageBox.Show("Result: " + result);
+                    MessageBox.Show(result);
                 }
                 else
                 {
