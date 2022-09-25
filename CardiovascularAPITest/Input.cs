@@ -44,9 +44,9 @@ namespace CardiovascularAPITest
             {
                 
                 
-                const string apiKey = "t6HNnhsyQBOY4u8Puk6OBoqeHijcptmb"; // Replace this with the API key for the web service
+                const string apiKey = ""; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-                client.BaseAddress = new Uri("http://19a4b27a-04ce-4987-a763-d068d480f689.southeastasia.azurecontainer.io/score");
+                client.BaseAddress = new Uri(""); // Replace this with the endpoint of the web service
 
                 var content = new StringContent(scoreRequestContent);
 
